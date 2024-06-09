@@ -4,6 +4,8 @@ def funcRange(num):
         result.append(i * i)
     return result
 
-n = int(input("Enter a number: "))
+n = int(input())
 index_list = funcRange(n)
-print(index_list)
+
+for value in index_list:
+    print(value)
